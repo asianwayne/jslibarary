@@ -30,4 +30,5 @@ person.email = "wayne@wayne.com";  //外部添加属性到object
 
 console.log(person);
 
-//array of objects 
+//array of objects  34m24s
+

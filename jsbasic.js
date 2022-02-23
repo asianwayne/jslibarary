@@ -31,4 +31,21 @@ person.email = "wayne@wayne.com";  //外部添加属性到object
 console.log(person);
 
 //array of objects  34m24s
+const todos = [
+{
+id:1,
+text:'take out trash',
+isComplete:false
+},
+{
+id:2,
+text:'take dinner',
+isComplete:true
+}
+]
+
+console.log(todos[1].text);
+
+//JSON
+
 

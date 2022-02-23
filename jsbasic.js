@@ -48,5 +48,13 @@ console.log(todos[1].text);
 
 //JSON  json写法和object的数组形式有点像，  但是json没有单引号，都是双引号，而且Json的第一个属性 都要加双引号
 
+console.log(todos[1].text);
+
+const jsonTodo = JSON.stringify(todos);
+
+console.log(jsonTodo);
+
+//for loop 37m52s
+
 
 

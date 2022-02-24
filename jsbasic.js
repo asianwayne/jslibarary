@@ -94,6 +94,16 @@ todos.forEach((todo) => {
 const todoText = todos.map((todo) => {
 	return todo.text;
 })
-console.log(todoText)
+console.log(todoText); 
+
+//
+//filter
+//return the filtered thing 筛选特定条件的结果数组， 返回的是完整的单元的数组 
+const todoComplete = todos.filter((todo) => {
+	return todo.isComplete === true;
+})
+console.log(todoComplete);
+
+
 
 

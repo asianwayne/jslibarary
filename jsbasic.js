@@ -76,3 +76,9 @@ for(let i = 0;i<todos.length;i++) {
 console.log(todos[i].text);
 }
 
+//for of loop, 循环数组然后循环出每个数组里面的单元
+//todos is the name of the array
+for(let todo of todos) {
+	console.log(todo.text);
+}
+

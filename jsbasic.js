@@ -55,6 +55,10 @@ const jsonTodo = JSON.stringify(todos);
 console.log(jsonTodo);
 
 //for loop 37m52s
-
+//for loop 3 parameters first is variable assignment，next is the condition needs to be match ; next is the increment 
+//以分号分隔 
+for(let i = 0; i <= 10;i++) {
+	console.log(`for loop number is : ${i}`);
+}
 
 

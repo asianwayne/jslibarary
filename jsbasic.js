@@ -71,7 +71,8 @@ while(i <= 10) {
 }
 
 //for loop the array 用for 循环 array  因为这里todos是array， 所以可以获取到他的长度，也就是Length ， 然后循环
-for (let i = 0;i < todos.length;i++) {
-	
+// for loop the array , length 可以用在string 也可以用在array 
+for(let i = 0;i<todos.length;i++) {
+console.log(todos[i].text);
 }
 

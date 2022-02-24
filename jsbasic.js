@@ -70,4 +70,8 @@ while(i <= 10) {
  i++;
 }
 
-//
+//for loop the array 用for 循环 array  因为这里todos是array， 所以可以获取到他的长度，也就是Length ， 然后循环
+for (let i = 0;i < todos.length;i++) {
+	
+}
+

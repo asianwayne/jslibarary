@@ -61,4 +61,11 @@ for(let i = 0; i <= 10;i++) {
 	console.log(`for loop number is : ${i}`);
 }
 
+//while loop
+//while loop set the varible outside the loop 
+let i = 0;
+while(i <= 10) {
+console.log(i);
+i++;
+}
 

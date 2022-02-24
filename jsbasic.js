@@ -89,4 +89,11 @@ todos.forEach((todo) => {
 	console.log(todo);
 })
 
+//map //map returns array  map循环返回数组 
+//return the array of just text values
+const todoText = todos.map((todo) => {
+	return todo.text;
+})
+console.log(todoText)
+
 

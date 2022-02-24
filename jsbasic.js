@@ -63,9 +63,10 @@ for(let i = 0; i <= 10;i++) {
 
 //while loop
 //while loop set the varible outside the loop 
+//while loop 要加自增的条件，不然一直无限循环，如下面 因为i <=10 条件一直成立， 所以会一直循环 
 let i = 0;
 while(i <= 10) {
-console.log(i);
-i++;
+ console.log(i);
+ i++;
 }
 

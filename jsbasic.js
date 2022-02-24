@@ -82,3 +82,11 @@ for(let todo of todos) {
 	console.log(todo.text);
 }
 
+//high order array methods 
+//forEach,map,filter
+//forEach array
+todos.forEach((todo) => {
+	console.log(todo);
+})
+
+

@@ -242,6 +242,9 @@ function Person(firstName,lastName,dob) {
 Person.prototype.getBirthYear = function () {
 	return this.dob.getFullYear();
 }
+Person.prototype.getFullName = function() {
+return this.firstName + ' ' + this.lastName;
+}
 const person1 = new Person('wayne','shen','03-08-1985');
 const person2 = new Person('Rosa','Day','12-08-2002');
 console.log(person2.getBirthYear());

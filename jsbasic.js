@@ -1,3 +1,4 @@
+//course  address is : https://www.aliyundrive.com/drive/folder/618caa4a0a0e31a6347a43b68589d8164dd098c8
 //array
 const fruits = ['apple','pear','banana','kiwi','grape'];
 fruits[3] = 'new';
@@ -116,10 +117,12 @@ console.log(todoComplete);
 
 //conditionals
 //== double equal will not match the datatype it's just the value 两个等号是值相等，三个等号 === 是数据类型相等 
+//原则上都要用三个等号来完全符合 
 
-const x = 10;
-if(x== 10) {
+const x = '10';
+if(x === 10) {
 console.log('x is equal to 10')
+} else {
+console.log('x is not equal 10')
 }
-
 

@@ -161,3 +161,9 @@ console.log(num1 + num2);
 
 addNums(23009,2);
 
+//es6 写法 
+const addNums = (numb1 = 1,numb2 = 1) => {
+	return numb1 + numb2;
+}
+console.log (addNums(5，5));
+

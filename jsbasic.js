@@ -269,4 +269,5 @@ const wayne = new Person('wayn','shen','3-4-2001');
 console.log(wayne);
 console.log(wayne.getFullName());
 
-//DOM
+//DOM   1h11m35s
+

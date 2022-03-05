@@ -168,6 +168,7 @@ const addNums = (numb1 = 1,numb2 = 1) => {
 console.log (addNums(5，5));
 
 // 既然只有一个expression  就可以连大括号都去掉 
+//这种方式你要return的话， 你只要去掉console.log就好 本身就是return了。 
 const addNums = (numb1 = 1,numb2 = 1) => console.log( numb1 + numb2 );
 
 addNums();

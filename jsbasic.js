@@ -115,7 +115,11 @@ const todoComplete = todos.filter((todo) => {
 console.log(todoComplete);
 
 //conditionals
+//== double equal will not match the datatype it's just the value 两个等号是值相等，三个等号 === 是数据类型相等 
 
-
+const x = 10;
+if(x== 10) {
+console.log('x is equal to 10')
+}
 
 

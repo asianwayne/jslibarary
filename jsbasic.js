@@ -105,12 +105,17 @@ const todoComplete = todos.filter((todo) => {
 console.log(todoComplete);
 
 
-//可以多个循环结合使用，如这个结果返回ispmplete 条件下的text 
+//可以多个循环结合使用，如这个结果返回ispmplete 条件下的text   46m18s
+//high order method
 const todoComplete = todos.filter((todo) => {
 	return todo.isComplete === true;
 }).map((todo) => {
 	return todo.text;
 })
 console.log(todoComplete);
+
+//conditionals
+
+
 
 

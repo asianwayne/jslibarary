@@ -230,5 +230,22 @@ console.log(person2.getFullName());
 //也可以通过protoType操作 //protoType是js内置的方法 
 //比方说不在constructor函数里 设置this.getBirthYear()  可以protoType来添加到方法到protoType
 
+//object orient project 
+function Person(firstName,lastName,dob) {
+	this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+  
+  //也可以template string return `${this.firstName} ${this.lastName}`
+  
+}
+Person.prototype.getBirthYear = function () {
+	return this.dob.getFullYear();
+}
+const person1 = new Person('wayne','shen','03-08-1985');
+const person2 = new Person('Rosa','Day','12-08-2002');
+console.log(person2.getBirthYear());
+//protoType 
+//we can attach method of the prototype
 
 

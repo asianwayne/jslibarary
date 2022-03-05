@@ -251,4 +251,21 @@ console.log(person2.getBirthYear());
 //protoType 
 //we can attach method of the prototype
 
+//js oop class的写法 
+class Person {
+	constructor(firstName,lastName,dob) {
+  this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+  }
+  getBirthYear() {
+  return this.dob.getFullYear()
+  }
+  getFullName() {
+  return this.firstName + ' ' + this.lastName;
+  }
+}
+const wayne = new Person('wayn','shen','3-4-2001');
+console.log(wayne);
+console.log(wayne.getFullName());
 

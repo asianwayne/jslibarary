@@ -184,3 +184,14 @@ function Person(firstName,lastName,dob) {
 //实例化object
 const person1 = new Person('wayne','shen','198508');
 console.log(person);
+
+//date object //new Date()  时间对象
+function Person(firstName,lastName,dob) {
+	this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+}
+
+const person1 = new Person('wayne','shen','198508');
+const person2 = new Person('Rosa','Day','199010');
+console.log(person2.dob);

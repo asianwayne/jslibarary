@@ -225,3 +225,5 @@ function Person(firstName,lastName,dob) {
 const person1 = new Person('wayne','shen','03-08-1985');
 const person2 = new Person('Rosa','Day','12-08-2002');
 console.log(person2.getFullName());
+
+

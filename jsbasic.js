@@ -195,3 +195,17 @@ function Person(firstName,lastName,dob) {
 const person1 = new Person('wayne','shen','198508');
 const person2 = new Person('Rosa','Day','199010');
 console.log(person2.dob);
+
+//data object 和constructor 函数拓展操作 
+//object orient project 
+function Person(firstName,lastName,dob) {
+	this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = new Date(dob);
+  this.getBirthYear = () => this.dob.getFullYear();
+  
+}
+
+const person1 = new Person('wayne','shen','03-08-1985');
+const person2 = new Person('Rosa','Day','12-08-2002');
+console.log(person2.getBirthYear());

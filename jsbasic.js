@@ -226,7 +226,8 @@ const person1 = new Person('wayne','shen','03-08-1985');
 const person2 = new Person('Rosa','Day','12-08-2002');
 console.log(person2.getFullName());
 
-//也可以通过protoType操作 //protoType是js内置的方法
+//1h08m31s
+//也可以通过protoType操作 //protoType是js内置的方法 
 //比方说不在constructor函数里 设置this.getBirthYear()  可以protoType来添加到方法到protoType
 
 

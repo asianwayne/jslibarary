@@ -172,3 +172,14 @@ console.log (addNums(5，5));
 const addNums = (numb1 = 1,numb2 = 1) => console.log( numb1 + numb2 );
 
 addNums();
+
+//javascript oop 
+//object orient project  person是一个面向对象 constructor 函数 
+function Person(firstName,lastName,dob) {
+	this.firstName = firstName;
+  this.lastName = lastName;
+  this.dob = dob;
+}
+
+const person1 = new Person('wayne','shen','198508');
+console.log(person);

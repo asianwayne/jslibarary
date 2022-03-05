@@ -131,3 +131,24 @@ console.log('x is less than  10')
 }
 
 
+//ternary shorthand 短写法
+const x = 11;
+const color = x > 10 ? 'red' : 'blue';
+console.log(color)
+
+//switch 用法 
+
+const x = 11;
+const color = x > 10 ? 'red' : 'blue';
+
+switch(color) {
+case 'red':
+console.log('color is red');
+break;
+case 'blue':
+console.log('color is blue');
+break;
+default:
+console.log('color is not red or blue');
+}
+

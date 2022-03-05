@@ -20,8 +20,7 @@ address:{
 street:'sanjie',
 city:'Shengzhou',
 country:'China'
-}
-}
+}}
 console.log(person.hobies[2]);
 
 const {name,age,address:{city}} = person; //pulling our the variable, 把name age 变量从 person object address object里面的city 变量 拉出来  address{ }  是 object的 拉法 

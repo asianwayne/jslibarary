@@ -181,5 +181,6 @@ function Person(firstName,lastName,dob) {
   this.dob = dob;
 }
 
+//实例化object
 const person1 = new Person('wayne','shen','198508');
 console.log(person);

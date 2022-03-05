@@ -174,6 +174,7 @@ const addNums = (numb1 = 1,numb2 = 1) => console.log( numb1 + numb2 );
 addNums();
 
 //javascript oop 
+//constructor function 是 ES5 的写法， ES6 是 class . 
 //object orient project  person是一个面向对象 constructor 函数 
 function Person(firstName,lastName,dob) {
 	this.firstName = firstName;

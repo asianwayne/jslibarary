@@ -152,3 +152,11 @@ default:
 console.log('color is not red or blue');
 }
 
+、//functions   55m39s 
+function addNums(num1 = 1,num2 = 1) {
+//function可以设置default 参数 值 比方可以设置num1 = 1, num2 = 1 这样执行函数的时候如果参数定义的时候就不会显示NAH。
+console.log(num1 + num2);
+}
+
+addNums(23009,2);
+

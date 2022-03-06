@@ -272,4 +272,34 @@ console.log(wayne);
 console.log(wayne.getFullName());
 
 //DOM DOM是document object modal   1h11m35s
+const ps = document.querySelectorAll('p');
+
+ps.forEach((p) => {
+  console.log(p)
+});
+
+const ul = document.querySelector('.items');
+//ul.remove();
+/*remove the last child of the ul */
+ul.lastElementChild.remove();
+//set fitst element text content to hello 
+ul.firstElementChild.textContent = 'hello';
+
+//pick the second one and change it;s content  children() 是nodelist method 
+ul.children[1].textContent = 'wyan';
+
+//change the last element html 
+ul.lastElementChild.innerHTML = '<h1>Hello</h1>';
+
+//btn
+const btn = document.querySelector('.btn');
+//change background of button
+btn.style.background = 'red';
+
+//eventListener  1h28m
+btn.addEventListener('click',(e) => {
+  e.preventDefault();
+  console.log(e.target.classList);
+  document.querySelector('body').classList.add('bg-red');
+});
 

@@ -303,3 +303,33 @@ btn.addEventListener('click',(e) => {
   document.querySelector('body').classList.add('bg-red');
 });
 
+
+//form validation and 
+const myForm = document.querySelector('#myform');
+const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("#email");
+const msg = document.querySelector("#msg");
+const userLists = document.querySelector("#users");
+
+myForm.addEventListener('submit',onFormSubmit);
+
+function onFormSubmit(e) {
+	e.preventDefault();
+  
+  
+  if(nameInput.value === '' || emailInput.value === '') {
+  msg.classList.add('error');
+  	msg.innerHTML = 'pls fill the form out';
+   	setTimeout(() => msg.remove(),2000);
+  } else {
+  const li = document.createElement('li');
+  li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
+  userLists.appendChild(li);
+ 	//clear fields
+  nameInput.value = '';
+  emailInput.value = '';
+  console.log('success');
+  }
+}
+
+
